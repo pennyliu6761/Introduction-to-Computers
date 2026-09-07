@@ -53,7 +53,7 @@ mindmap
 <tr>
 <td width="30%">
 
-![中國算盤](images/differencing_engine.jpg)
+![中國算盤](images/abacus.jpg)
 *（示意：早期機械計算裝置）*
 
 </td>
