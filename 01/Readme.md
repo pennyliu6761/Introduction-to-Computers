@@ -54,7 +54,7 @@ mindmap
 <td width="30%">
 
 ![中國算盤](images/abacus.jpg)
-*（示意：早期機械計算裝置）*
+*中國算盤（圖片來源：維基百科）*
 
 </td>
 <td>
