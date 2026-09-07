@@ -49,17 +49,16 @@ mindmap
 
 ### 機械計算時代：從算盤到分析機
 
+#### 西元前 3000 年｜中國算盤
 <table>
 <tr>
-<td width="30%">
+<td width="35%">
 
 ![中國算盤](images/abacus.jpg)
 *中國算盤（圖片來源：維基百科）*
 
 </td>
 <td>
-
-#### 西元前 3000 年｜中國算盤
 
 算盤可以說是人類最早、也是使用時間最長的計算工具，起源於中國，至今在珠算教學、部分市場交易中仍看得到它的身影。算盤的巧妙之處在於，它把「進位」這個抽象的數學概念，變成了看得見、摸得著的「珠子移動」——這其實已經具備了現代計算機「用實體元件表示數字狀態」的雛形精神。
 
@@ -68,26 +67,48 @@ mindmap
 </table>
 
 #### 1642 年｜巴斯卡（Blaise Pascal）與 Pascaline 齒輪計算機
+<table>
+<tr>
+<td width="35%">
+  
+![Pascaline 齒輪計算機](images/pascaline.jpg)
+
+*Pascaline 齒輪計算機（圖片來源：維基百科）*
+
+</td>
+<td>
 
 法國數學家 **Blaise Pascal** 當時年僅十幾歲，是為了幫在稅務機關工作、每天要處理大量加減法的父親分擔工作，才設計出這台以齒輪轉盤組成的機械式計算機 **Pascaline**。它可以自動處理「進位」——當某一位數字轉到 10 時，會自動帶動下一位數字前進一格，這個「進位」的機械原理，其實和我們今天計算機、汽車里程表的運作邏輯是一脈相承的。
 
-![Pascaline 齒輪計算機](images/pascaline.jpg)
-*Pascaline 齒輪計算機（圖片來源：維基百科）*
+</td>
+</tr>
+</table>
 
 > **課堂小提醒**：Pascal 這個程式語言（Pascal 語言）就是後人為了紀念他而命名的，可以順帶連結到後面「第三代電腦」的高階語言介紹。
 
 #### 1801 年｜賈卡（Joseph Jacquard）與提花織布機
+<table>
+<tr>
+<td width="35%">
+
+![Jacquard 提花織布機](images/jacquard.jpg)
+*Jacquard 提花織布機（圖片來源：維基百科）*
+
+</td>
+<td>
 
 法國織布工人 **Joseph Jacquard** 發明了一種用「打孔卡片」控制織布圖案的織布機。卡片上打孔與否，決定了織線要往上還是往下——這其實就是最早的「二進位控制」概念：**有孔 / 無孔，等同於今天電腦裡的 1 / 0**。這個「用卡片上的孔洞來儲存與控制資訊」的想法，後來直接影響了打孔卡片計算機、甚至早期電腦程式的輸入方式。
 
-#### 1830～1833 年｜巴貝奇（Charles Babbage）的差分機與分析機
+</td>
+</tr>
+</table>
 
+#### 1830～1833 年｜巴貝奇（Charles Babbage）的差分機與分析機
 <table>
 <tr>
 <td width="35%">
 
 ![差分機](images/differencing_engine.jpg)
-
 *差分機（圖片來源：Science Museum London）*
 
 </td>
@@ -101,7 +122,6 @@ mindmap
 <td width="35%">
 
 ![分析機](images/analytical_engine.jpg)
-
 *分析機（圖片來源：維基百科）*
 
 </td>
@@ -442,7 +462,7 @@ flowchart TD
 <td>運算能力強大的高階桌上型電腦，適合從事財務分析、電腦動畫、工程設計、軟體開發等對運算資源要求較高的專業工作。</td>
 </tr>
 <tr>
-<td width="22%">（無圖）<br><b>AI PC</b></td>
+<td width="22%"><img src="images/aipc.jpg"><br><b>AI PC</b></td>
 <td>具備人工智慧功能的 PC，通常內建 AI 晶片，例如 **GPU（圖形處理器）**、**NPU（神經處理器）**，讓 AI 模型與應用可以直接在本機端運行，不必事事都連到雲端伺服器。</td>
 </tr>
 <tr>
