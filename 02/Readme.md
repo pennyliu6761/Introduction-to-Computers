@@ -64,6 +64,7 @@ timeline
 <td width="30%">
 
 ![第一個神經網路電腦SNARC](images2/snarc_computer.png)
+
 *第一個神經網路電腦 SNARC（圖片來源：the-scientist.com）*
 
 </td>
@@ -115,6 +116,7 @@ timeline
 <td width="30%">
 
 ![人臉辨識準確率越來越高](images2/face_recognition.png)
+
 *隨著深度學習的發展，人臉辨識的準確率也愈來愈高了（圖片來源：shutterstock）*
 
 </td>
@@ -161,6 +163,7 @@ timeline
 <td width="30%">
 
 ![監督式學習示意圖](images2/supervised_learning.png)
+
 *(a) 標記資料 (b) 未標記資料（圖片來源：DALL·E生成）*
 
 </td>
@@ -178,6 +181,7 @@ timeline
 <td width="30%">
 
 ![非監督式學習示意圖](images2/unsupervised_learning.png)
+
 *沒有標記的資料可以未來自動分群（例如一群蝴蝶和一隻蜜蜂）*
 
 </td>
@@ -195,6 +199,7 @@ timeline
 <td width="30%">
 
 ![強化學習示意圖](images2/reinforcement_learning.png)
+
 *強化學習示意圖：狀態、代理程式、行動的循環*
 
 </td>
@@ -225,12 +230,14 @@ timeline
 <td width="45%">
 
 ![生物神經元的結構](images2/biological_neuron_1.png)
+
 *生物神經元的結構（圖片來源：Quasar Jarosz at Wikipedia 經作者修圖）*
 
 </td>
 <td width="45%">
 
 ![神經元透過突觸連接](images2/biological_neuron_2.png)
+
 *神經元透過突觸連接其它神經元（圖片來源：Quasar Jarosz at Wikipedia 經作者修圖）*
 
 </td>
@@ -265,12 +272,14 @@ timeline
 <td width="45%">
 
 ![基本神經網路](images2/nn_architecture_basic.png)
+
 *基本的神經網路*
 
 </td>
 <td width="45%">
 
 ![深度神經網路](images2/nn_architecture_deep.png)
+
 *深度神經網路（多個隱藏層）*
 
 </td>
@@ -295,12 +304,14 @@ timeline
 <td width="45%">
 
 ![卷積神經網路](images2/cnn_diagram.png)
+
 *卷積神經網路 CNN*
 
 </td>
 <td width="45%">
 
 ![循環神經網路](images2/rnn_diagram.png)
+
 *循環神經網路 RNN*
 
 </td>
@@ -322,6 +333,7 @@ timeline
 前面介紹的機器學習、深度學習應用，大多是在做「**判斷**」——這張圖是不是貓、這封信是不是垃圾郵件。但**生成式 AI（Generative AI）** 做的是完全不同的事：它是利用人工智慧技術來**生成全新的內容**。我們把使用生成式 AI 技術所生成的內容，稱為 **AIGC（Artificial Intelligence Generated Content）**。
 
 ![判斷式AI與生成式AI的差異](images2/aigc_concept.png)
+
 *判斷式 AI（判斷是不是狗）vs. 生成式 AI（生成一張新的狗圖片）*
 
 生成式 AI 之所以能在近幾年爆發式成長，背後主要仰賴三項深度學習關鍵技術：**生成對抗網路（GAN）、擴散模型、Transformer**。
@@ -342,6 +354,7 @@ GAN 的巧妙之處在於「左右互搏」的訓練方式，內部包含兩個�
 ### 2-4-2　擴散模型（Diffusion Model）
 
 ![擴散模型的運作流程](images2/diffusion_diagram.png)
+
 *擴散模型的運作流程：(a) 前向擴散 (b) 反向還原*
 
 擴散模型的訓練邏輯很有意思：**先學會「如何把一張清晰的圖片，一步步加入雜訊直到變成一團亂碼」，再反過來學會「如何把一團隨機雜訊，一步步去除雜訊、還原成一張清晰的圖片」**。訓練完成後，我們只要給模型一段文字描述，讓它從一團純隨機的雜訊開始，一步步「去噪」，最後就能生成一張全新的、符合描述的圖片。目前主流的圖像生成工具（如 Stable Diffusion）大多採用這項技術。
@@ -353,6 +366,7 @@ GAN 的巧妙之處在於「左右互搏」的訓練方式，內部包含兩個�
 <td width="45%">
 
 ![序列到序列模型的應用](images2/transformer_diagram_1.png)
+
 *序列到序列模型的應用（例如語音辨識、機器翻譯）*
 
 </td>
@@ -424,6 +438,7 @@ GAN 的巧妙之處在於「左右互搏」的訓練方式，內部包含兩個�
 <td width="30%">
 
 ![Sora視訊生成](images2/sora_video_gen.png)
+
 *利用 Sora 根據書籍封面和提示詞生成宣傳影片*
 
 </td>
@@ -494,6 +509,7 @@ flowchart LR
 
 <img src="images2/vr_headset.png">
 <img src="images2/vr_controller.png">
+
 *VR 頭戴式顯示器和手持控制器（圖片來源：Meta Quest）*
 
 </td>
@@ -508,6 +524,7 @@ flowchart LR
 </table>
 
 ![VR的使用者完全沉浸在虛擬空間](images2/vr_swimming.png)
+
 *VR 的使用者會完全沉浸在虛擬的空間*
 
 <table>
@@ -515,6 +532,7 @@ flowchart LR
 <td width="30%">
 
 ![AR應用示意](images2/ar_architect.png)
+
 *建築師透過 AR 頭戴式裝置討論 3D 城市模型（圖片來源：shutterstock）*
 
 </td>
@@ -530,6 +548,7 @@ flowchart LR
 <td width="30%">
 
 ![Microsoft Mesh MR平台](images2/mr_microsoft_mesh.png)
+
 *在 Microsoft Mesh 平台使用虛擬人偶和沈浸式的 3D 空間連結企業的員工*
 
 </td>
@@ -554,6 +573,7 @@ flowchart LR
 **區塊鏈（blockchain）** 是一種用來記錄資料的技術，這些資料會被寫入一個個「區塊」，每個區塊會經由**雜湊（hash）運算**加到一條不斷延伸的「鏈」（chain）上。
 
 ![區塊鏈的鏈結原理](images2/blockchain_concept.png)
+
 *區塊鏈的每個區塊會包含前一個區塊的雜湊值而鏈結在一起（圖片來源：shutterstock）*
 
 > **延伸閱讀（原理補充）**：雜湊函數有一個關鍵特性——只要輸入的資料有任何一丁點改變，算出來的雜湊值就會變得完全不同。區塊鏈正是利用這個特性：**每一個新區塊，都會把「前一個區塊的雜湊值」一併記錄進來**，這樣就把所有區塊緊密串連成一條鏈。如果有心人士想竄改其中一個舊區塊的內容，該區塊的雜湊值就會跟著改變，導致後面所有區塊記錄的「前一個區塊雜湊值」全部對不上——除非他能同時重新計算並修改後面所有的區塊（在公開的區塊鏈上，這在計算上幾乎不可行），否則竄改馬上會被發現。這就是區塊鏈「不可竄改性」的技術原理。詳見維基百科 [Blockchain](https://en.wikipedia.org/wiki/Blockchain) 條目。
@@ -577,6 +597,7 @@ flowchart LR
 ### 區塊鏈的應用
 
 ![加密貨幣交易平台Binance](images2/crypto_binance.png)
+
 *加密貨幣交易平台 Binance*
 
 - **加密貨幣（cryptocurrency）**：利用密碼學的加密技術所創造出來的虛擬貨幣，例如比特幣、以太幣、幣安幣、瑞波幣、萊特幣、泰達幣、狗狗幣等。
@@ -597,6 +618,7 @@ flowchart LR
 **量子電腦（quantum computer）** 是基於量子力學原理所發展的電腦，其資料的基本單位叫做**量子位元（qubit）**。
 
 ![全球首款商業化量子電腦IBM Q System One](images2/ibm_q_system_one.png)
+
 *全球首款商業化量子電腦 IBM Q System One（圖片來源：shutterstock）*
 
 ### 量子電腦的兩大關鍵原理
