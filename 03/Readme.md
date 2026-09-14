@@ -424,8 +424,11 @@ $$G_{n+1} = \{0G_n,\ 1G_n^{ref}\}，\quad G_1=\{0,1\}，\quad n\geq1$$
 **二進位 ↔ 葛雷碼互轉公式**：
 
 - 二進位 BₙBₙ₋₁…B₁ 轉葛雷碼 GₙGₙ₋₁…G₁：
+
 $$G_k = \begin{cases}B_k, & k=n \\ B_{k+1}\oplus B_k, & 1\leq k\leq n-1\end{cases}$$
+
 - 葛雷碼 GₙGₙ₋₁…G₁ 轉二進位 BₙBₙ₋₁…B₁：
+
 $$B_k = \begin{cases}G_k, & k=n \\ B_{k+1}\oplus G_k, & 1\leq k\leq n-1\end{cases}$$
 
 白話來說：**二進位轉葛雷碼**——最高位不變，其餘每一位都是「自己與左邊相鄰位元」做 XOR；**葛雷碼轉二進位**——最高位不變，其餘每一位都是「自己與剛剛算出的左邊二進位結果」做 XOR（必須從左往右依序計算）。
